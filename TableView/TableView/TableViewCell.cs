@@ -23,8 +23,8 @@ namespace TableView
 
     private void UpdateSelection()
     {
-      if (ParentTableView.SelectedCell != null)
-        ParentTableView.SelectedCell.IsSelected = false;
+      //if (ParentTableView.SelectedCell != null)
+      //  ParentTableView.SelectedCell.IsSelected = false;
       ParentTableView.SelectedCell = this;
     }
 

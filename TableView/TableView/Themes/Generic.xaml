@@ -115,12 +115,12 @@
                       Property="Background"
                       Value="{StaticResource Brush_Focus}" />
             </Trigger>
-            <Trigger Property="IsMouseOver"
+            <!--<Trigger Property="IsMouseOver"
                      Value="True">
               <Setter TargetName="selector"
-                      Property="Background"
-                      Value="{DynamicResource ResourceKey={x:Static SystemColors.HotTrackBrushKey}}" />
-            </Trigger>
+                      Property="BorderBrush"
+                      Value="Black" />
+            </Trigger>-->
           </ControlTemplate.Triggers>
         </ControlTemplate>
       </Setter.Value>

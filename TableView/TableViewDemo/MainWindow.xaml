@@ -11,7 +11,7 @@
         <!-- style used to alter the Field background color depending on the value of the State property -->
         <Style x:Key="fieldStyle"
            TargetType="{x:Type TextBlock}">
-            <Style.Triggers>
+            <!--<Style.Triggers>
                 <DataTrigger Binding="{Binding State}"
                      Value="1">
                     <Setter Property="Background"
@@ -22,7 +22,7 @@
                     <Setter Property="Background"
                       Value="LightBlue" />
                 </DataTrigger>
-            </Style.Triggers>
+            </Style.Triggers>-->
         </Style>
 
 
@@ -42,7 +42,8 @@
         Uses row selection, shows both horisontal and vertical grid lines using a dark gray brush.
         First 2 columns are fixed and wont scroll sideways.-->
         <tv:TableView x:Name="tableView"
-                  CellNavigation="False"
+                    
+                  CellNavigation="True"
                   ShowHorizontalGridLines="True"
                   ShowVerticalGridLines="True"
                   GridLinesBrush="DarkGray"
